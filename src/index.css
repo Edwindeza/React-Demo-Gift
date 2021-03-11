@@ -3,4 +3,38 @@
 }
 body, html{
   margin: 0;
+  padding: 3rem;
+}
+
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  color: gray;
+
+}
+
+
+.card-grid{
+ display: flex;
+ flex-direction: row; 
+ flex-wrap: wrap;
+ align-content: center;
+ 
+}
+.card{
+  align-content: center;
+  border:1px solid gray;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+.card p{
+  padding: 5px;
+  text-align: center;
+}
+.card img{
+  max-height: 170px;
 }
